@@ -1,0 +1,56 @@
+# 忽略 node_modules 目录（依赖包）
+node_modules/
+
+# 忽略 npm/yarn 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 忽略环境配置文件
+.env*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 忽略测试报告
+coverage/
+
+# 忽略编辑器临时文件
+*.swp
+*.swo
+*.swn
+*.swn.*
+*.suo
+*.tmp
+
+# 忽略 IDE/编辑器配置
+.idea/
+.vscode/
+*.sublime-workspace
+*.vscode-workspace
+
+# 忽略日志文件
+*.log
+
+# 忽略 Docker 相关文件（如果使用 Docker）
+# .dockerignore
+
+# 忽略构建产物（根据项目类型调整）
+# dist/
+# build/
+
+# 忽略调试文件
+*.d.ts
+*.tsbuildinfo
+
+# 忽略其他临时文件
+*.bak
+*.old
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 忽略所有隐藏文件（除 .gitignore 外）
+.*ignore
+!.gitignore
