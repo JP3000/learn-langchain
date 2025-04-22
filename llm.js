@@ -4,12 +4,12 @@ import { ChatOpenAI } from '@langchain/openai';
 dotenv.config();
 
 const model = new ChatOpenAI({
-    modelName: "Qwen/QwQ-32B",
+    modelName: "deepseek-ai/deepseek-vl2",
     configuration: {
         baseURL: process.env.SILICONFLOW_API_URL,
         apiKey: process.env.SILICONFLOW_API_KEY,
     }
 });
 
-const response = await model.invoke('Who are you?');
+const response = await model.invoke("write a poem about the AI");
 console.log(response)
