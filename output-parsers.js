@@ -15,7 +15,7 @@ dotenv.config()
 
 //Create model 
 const model = new ChatOpenAI({
-    modelName: "deepseek-ai/deepseek-vl2",
+    modelName: "THUDM/GLM-4-32B-0414",
     temperature: 0.7,
     configuration: {
         baseURL: process.env.SILICONFLOW_API_URL,
